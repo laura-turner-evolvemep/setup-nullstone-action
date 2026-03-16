@@ -68,7 +68,7 @@ function getDownloadUrl(version: string): string {
         case "x64":
             arch = "amd64"
             break
-        case "x32":
+        case "ia32":
             arch = "386"
             break
         default:
